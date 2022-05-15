@@ -163,7 +163,7 @@ p {
     color: #1e1e1e;
     font-weight: 500;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 120px;
     margin: 250px 450px;
 
     position: absolute;
@@ -325,7 +325,7 @@ p {
 @media (max-width: 1230px) {
 
     .nav__item {
-        font-size: 14px;
+        font-size: 18px;
 
     }
 
@@ -334,22 +334,6 @@ p {
 
 
 @media (max-width: 990px) {
-
-    /*Header Nav*/
-
-    .header__nav {
-        display: block;
-    }
-
-    /* Nav*/
-
-    .nav__item {
-        display: block;
-        font-size: 15px;
-        width: 100%;
-
-    }
-
 
     /* about*/
 
@@ -415,4 +399,102 @@ p {
     .footer__logo {
         width: 100%;
     }
+}
+
+
+@media (max-width: 420px) {
+
+        /*Header Nav*/
+
+        .header__nav {
+            display: block;
+        }
+
+        /* Nav*/
+
+        .nav__item {
+            display: block;
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 10px;
+
+        }
+
+
+        /* about*/
+
+        .about__inner {
+            display: block;
+        }
+
+        .about__content {
+            width: 100%;
+
+        }
+
+        .about__image {
+            width: 100%;
+            margin-right: -20px;
+        }
+
+        .about__text {
+            font-size: 16px;
+            max-width: 345px;
+        }
+
+        .about__title {
+            font-size: 28px;
+            max-width: 345px;
+        }
+
+        /* Promo*/
+
+        .promo__content {
+            display: block;
+        }
+
+        .promo__image--one {
+            width: 100%;
+        }
+
+        .promo__image--two {
+            width: 100%;
+        }
+
+        .promo__logo {
+            margin: 0 auto;
+            margin-left: 50px;
+        }
+
+            /* intro*/
+
+        .intro__content {
+            display: block;
+        }
+
+        .intro__text {
+            width: 100%;
+            font-size: 12px;
+            max-width: 345px;
+        }
+
+        .intro__title {
+            width: 100%;
+            font-size: 19px;
+            max-width: 345px;
+        }
+
+                /* footer*/
+
+        .footer__content {
+            display: block;
+        }
+
+        .footer__nav {
+            display: block;
+        }
+
+        .footer__logo {
+            width: 100%;
+        }
 }
