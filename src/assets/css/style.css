@@ -53,7 +53,6 @@ p {
 
 /* slider button =============
 ==========*/
-
 .slick-dots {
     display: flex;
     justify-content: center;
@@ -323,6 +322,11 @@ p {
 
 .footer {
     background-color: #0e1215;
+
+}
+
+.footer__logo {
+    margin: 50px 500px;
 
 }
 
