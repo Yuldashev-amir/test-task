@@ -28,6 +28,9 @@ p {
     padding: 0 15px;
 
 }
+.page {
+    overflow: hidden;
+}
 
 /* Header =============
 ==========*/
@@ -51,45 +54,50 @@ p {
     padding: 35px 0px;
 }
 
+.header__slider {
+    display: flex;
+    overflow: hidden;
+
+    position: relative;
+}
+
+
 /* slider button =============
 ==========*/
-.slick-dots {
+
+.slick__list {
+    overflow: hidden;
+}
+
+.slick__track {
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 50%;
+}
 
+.header__slider, .slick-arrow {
     position: absolute;
-    bottom: 0;
+    top: 50%;
+    z-index: 10;
+}
+
+.header__slider, .slick-arrow, .slick-prev{
+    left: 0;
+    top: 100%;
+
+
+
+
+}
+/* Стрелка вправо */
+.header__slider, .slick-arrow, .slick-next{
     right: 0;
-    z-index: 2;
-}
-.slick-dots button {
-    background-color: #fff;
+    bottom: 0;
 
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    border: 0 10px;
-    padding: 0;
-    font-size: 0;
-    background-color: black;
 
-    cursor: pointer;
-    color: transparent;
-}
-.slick-dots :focus {
-    outline: 0;
+
+
 }
 
-.slick-dots .slick-active button {
-    background-color: #fff;
-}
-.slick-dots li {
-    margin: 0 5px;
-}
+
 
 
 

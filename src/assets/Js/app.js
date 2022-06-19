@@ -1,8 +1,3 @@
-$('.slick-item').slick({
-  infinite: true,
-  dots: true,
-  slidesToShow: 3,
-  slidesToScroll: 1
+$(document).ready(function(){
+    $(".header__slider").slick();
 });
-
-$('.slick-item').slick();
