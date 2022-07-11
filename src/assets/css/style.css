@@ -38,7 +38,7 @@ p {
 ==========*/
 
 .header {
-    background-image: url(../images/bg-1.jpg);
+    background-image: url("../images/bg-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,15 +58,7 @@ p {
     padding: 35px 0px;
 }
 
-.header__slider {
-    display: flex;
-    overflow: hidden;
-
-    position: relative;
-}
-
-
-/* slider button =============
+/* slider swiper =============
 ==========*/
 .image-slider__wrapper  .swiper-wrapper {
     width: 100%;
