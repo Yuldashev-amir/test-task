@@ -23,13 +23,15 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
 
 }
 .page {
     overflow: hidden;
+    width: 100%;
+    max-width: 1230px;
 }
 
 /* Header =============
@@ -326,6 +328,8 @@ p {
 
 .footer__logo {
     margin: 50px 500px;
+    width: 50px;
+    max-width: 100%;
 
 }
 
@@ -333,7 +337,7 @@ p {
     display: flex;
     justify-content: space-between;
 
-    padding: 35px 0;
+    padding: 35px 25px;
 
 }
 .footer__content {
@@ -368,7 +372,7 @@ p {
 /* Media =============
 ==========*/
 
-@media (max-width: 1230px) {
+@media (max-width: 1200px) {
 
     .nav__item {
         font-size: 18px;
@@ -394,7 +398,8 @@ p {
 
     .about__image {
         width: 100%;
-        margin-right: -20px;
+        max-width: 866px;
+        margin: 0 auto;
     }
 
     /* Promo*/
@@ -448,7 +453,7 @@ p {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 570px) {
 
         /*Header Nav*/
 
@@ -542,5 +547,16 @@ p {
 
         .footer__logo {
             width: 100%;
+        }
+
+        .footer__image {
+            width: 750px;
+            max-width: 100%;
+        }
+
+        .footer__logo {
+            width: 250px;
+            max-width: 100%;
+            margin: 0 auto;
         }
 }
